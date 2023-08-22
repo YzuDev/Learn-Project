@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" id="light" class="light">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,22 +17,55 @@
       <div id="profile">
         <img src="./assets/avatar.png" alt="Foto de Kaique" />
         <p>@kaiq_ss</p>
-
-        <ul>
-          <li><a href="#">Inscreva-se no NLW</a></li>
-          <li><a href="#">Baixar meu E-book</a></li>
-          <li><a href="#">Ver meu portifólio</a></li>
-          <li><a href="#">Conheça o Explorer</a></li>
-        </ul>
-        <div class="social">
-        <img src="./assets/Social links.png" alt="" />
-        <img src="./assets/Social links-1.png" alt="" />
-        <img src="./assets/Social links-2.png" alt="" />
-        <img src="./assets/Social links-3.png" alt="" />
       </div>
+      <div id="switch" onclick="toggleMode()">
+        <button><img src="" alt="" /></button><span></span>
       </div>
-      
+      <ul>
+        <li><a href="inscreva.html">Inscreva-se no NLW</a></li>
+        <li><a href="ebook.html">Baixar meu E-book</a></li>
+        <li>
+          <a href="https://github.com/YzuDev" target="_blank"
+            >Ver meu portifólio</a
+          >
+        </li>
+        <li>
+          <a href="https://app.rocketseat.com.br/events" target="_blank"
+            >Conheça o Explorer</a
+          >
+        </li>
+      </ul>
+      <div id="social">
+        <a href="https://github.com/YzuDev" target="_blank">
+          <ion-icon name="logo-github"></ion-icon
+        ></a>
+        <a href="https://www.instagram.com/kaiq_ss/" target="_blank"
+          ><ion-icon name="logo-instagram"></ion-icon
+        ></a>
+        <a
+          href="https://www.youtube.com/channel/UCR42PAEOe9Q3ly3nD4_Bv_A"
+          target="_blank"
+          ><ion-icon name="logo-youtube"></ion-icon
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/kaique-da-silva-de-souza-640b6117a/"
+          target="_blank"
+          ><ion-icon name="logo-linkedin"></ion-icon
+        ></a>
+      </div>
     </div>
-    <footer>Fale conosco s2</footer>
+    <footer>
+      Feito por Kaiq_ss <ion-icon name="heart-outline"></ion-icon>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
   </body>
 </html>
