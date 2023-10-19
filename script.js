@@ -7,9 +7,9 @@ function toggleMode() {
   html.classList.toggle("light")
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./assets/avatar-light.png"),
-      alte.setAttribute("alt", "Foto de Kaique de chapéu!")
+      alte.setAttribute("alt", "Foto de Kaique!")
   } else {
     img.setAttribute("src", "./assets/avatar.png"),
-      alte.setAttribute("alt", "Foto de Kaique!")
+      alte.setAttribute("alt", "Foto de Kaique-de-CHapeu!")
   }
 }

@@ -4,18 +4,18 @@
   box-sizing: border-box;
 }
 :root {
-  --color-text: rgb(255, 255, 255);
+  --color-text: rgb(224, 35, 35);
   --background-image: url(./assets/bg-mobile.jpg);
   --moon-image: url(./assets/MoonStars.svg);
-  --stroker-color: rgba(255, 255, 255, 0.404);
-  --background-color: #e4b7dc27;
+  --stroker-color: rgba(245, 234, 234, 0.404);
+  --background-color: #04050427;
 }
 
 .light {
-  --color-text: black;
+  --color-text: rgb(90, 71, 17);
   --background-image: url(./assets/bg-mobile-light.jpg);
   --sun-image: url(./assets/sun.svg);
-  --background-color: #ffffff;
+  --background-color: #28c930;
   --stroker-color: rgba(3, 3, 3, 0.137);
 }
 
